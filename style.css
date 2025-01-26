@@ -63,6 +63,7 @@ section{
     align-items: center;
     justify-content: center;
     width: 6vw;
+
 }
 .container:hover{
     background-color: orangered;
@@ -129,4 +130,90 @@ section{
 
 #search input::placeholder {
     padding-left: 1px; 
+}
+
+.all{
+    width: 33vw;
+}
+
+#request{
+    display: flex;
+    margin-top: 460px;
+    width:100vw ;
+    height:40vh;
+    background-color: #f2f2f5;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 32vw;
+}
+
+.content h3{
+    color: orangered;
+}
+
+.content h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.content p{
+    font-size: 14px;   
+}
+
+#blocos{
+    margin-top: 20px;
+    display: flex;
+    gap:140px;
+    width: 32vw;
+    height: 10vh;
+}
+
+#blocks{
+    width: 90vw;
+}
+
+#blocks span{
+    font-size: 30px;
+    color: orangered;
+    font-weight: 900;
+}
+
+#blocks p{
+    font-size: 9px;
+    font-weight:700;
+} 
+
+#login{
+    display: flex;
+    background-color:orangered;
+    width: 20vw;
+    height: 40vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.login_in{
+    width: 15vw;
+    height: 4vh;
+}
+
+.login select{
+    width: 15vw;
+    height: 4vh; 
+}
+
+.botao_ok{
+    width: 15vw;
+    height: 4vh;
+   background-color: #1f1f2e;
+   color: white; 
+   border: 0px;
 }
