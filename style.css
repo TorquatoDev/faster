@@ -211,9 +211,91 @@ section{
 }
 
 .botao_ok{
-    width: 15vw;
-    height: 4vh;
+   width: 15vw;
+   height: 4vh;
    background-color: #1f1f2e;
    color: white; 
    border: 0px;
 }
+
+#price{
+    display: flex;
+    width:100vw;
+    height:60vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:20px ;
+}
+
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 10vh;
+    flex-direction: column;
+}
+
+.cabecalho h1{
+    font-size: 30px;    
+}
+
+.cabecalho h4{
+    color: orangered;
+}
+
+#plano{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 53vw;
+    height: 35vh;
+    margin-top: 60px;
+}
+
+#bloco_plan{
+    background-color:#f2f2f5;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    height: 45vh;
+}
+
+.value{
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#model_plan{
+    display: flex;
+    width: 15vw;
+    height: 8vh;
+    background-color: orangered;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+    gap: 12px;
+}
+
+.products button{
+    height: 30px;
+    font-size: 12px;
+    width: 100px;
+    background-color: orangered;
+    color: white;
+    margin-top: 20px;
+}
+
